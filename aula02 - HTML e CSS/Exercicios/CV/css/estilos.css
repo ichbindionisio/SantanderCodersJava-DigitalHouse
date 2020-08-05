@@ -1,0 +1,21 @@
+body {
+    font-family: sans-serif;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 23px;
+}
+
+h1 {
+    background-color: salmon;
+    text-align: center;
+    font-style: italic;
+}
+h2 {
+    background-color: sandybrown;
+    font-weight: normal;
+}
+h3 {
+    background-color: yellowgreen;
+    font-weight: normal;
+    text-decoration: underline;
+}
