@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../eventos_formulario/">
+
+    <script src="../eventos_formulario/jquery-2.2.1.js"></script>
+
+    <title>Eventos click</title>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $(".campo1").blur(function () {
+                console.log("botão foi focado");
+            })
+
+            $(".campo2").change(function () {
+                alert("botão foi trocado");
+            })
+
+        })
+
+    </script>
+
+</head>
+
+<body>
+
+    <input class="campo1" type="text">
+
+    <select class="campo2">
+        <option value="1"> primeira opção </option>
+        <option value="2"> segunda opção </option>
+    </select>
+
+</body>
+
+</html>
