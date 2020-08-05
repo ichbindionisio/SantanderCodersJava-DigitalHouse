@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../CV3/index_CV3.html">
+    <link href="../CV3/css/estilos_CV3.css" rel="stylesheet">
+    <title>Contatos</title>
+</head>
+
+<body>
+
+    <h1>
+        Formulário de Contato
+    </h1>
+    <form action="" method="POST">
+        <label for="text"> Nome e sobrenome </label>
+        <br>
+        <input type="text" required>
+        <br>
+
+        <label for="email"> Email </label>
+        <br>
+        <input type="email" placeholder="Digite um email válido" required>
+        <br>
+
+        <br>
+        <label for="assunto"> Qual o assunto da mensagem ? </label>
+        <select name="assunto">
+            <option value="reclamacao"> Reclamação</option>
+            <option value="elogio"> Elogio</option>
+            <option value="duvida"> Duvida</option>
+        </select>
+        <br>
+
+        <br>
+        <label> Genero: </label>
+        <br>
+        <label> Feminino </label>
+        <input type="radio" name="Genero" value="Feminino">
+        <br>
+        <label> Masculino </label>
+        <input type="radio" name="Genero" value="Masculino">
+        <br>
+        <label> Prefiro não responder </label>
+        <input type="radio" name="Genero" value="Prefiro não responder">
+
+        <br>
+        <br>
+        <label> Passatempos: </label>
+        <br>
+        <label> Nadar </label>
+        <input type="checkbox" name="hobbies" value="nadar">
+        <br>
+        <label> Correr </label>
+        <input type="checkbox" name="hobbies" value="correr">
+        <br>
+        <label> Viajar </label>
+        <input type="checkbox" name="hobbies" value="viajar">
+        <br>
+        <label> Ler </label>
+        <input type="checkbox" name="hobbies" value="ler">
+        <br>
+        <label> Sair com amigos </label>
+        <input type="checkbox" name="hobbies" value="amigos">
+
+        <br><br>
+        <label for="Comentarios"> Comentários </label>
+        <br>
+        <textarea rows="5" cols="40" name="Comentarios" style="resize: vertical;" required></textarea>
+
+
+        <br><br>
+        <button type="submit"> Enviar </button>
+        <button type="reset"> Excluir </button>
+
+    </form>
+
+    <div>
+        <a href="../CV3/index_CV3.html"> Voltar a pagina inicial </a>
+    </div>
+
+
+
+
+
+</body>
+
+</html>
